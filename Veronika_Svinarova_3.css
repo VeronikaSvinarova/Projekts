@@ -1,0 +1,66 @@
+h1 {
+	color: #D10751 ;
+	text-align: center;
+}
+h2 {
+	color: #FC9005 ;
+	text-align: center;
+}
+.F {
+	background-color: yellow;
+}
+body {
+	background-color: #DEF7A3 ;
+}
+td, th {
+	width:350px;
+	border-color: Blue;
+	border-width: 1px;
+	border-style: solid;
+	background-color: #E2D1F2  ;
+}
+
+ul.TopNav {
+  padding: 4px 4px;
+  margin: auto;
+  text-align: center;
+}
+ul.TopNav li {
+	display:inline-block;
+	width:150px;
+		
+}
+ul.TopNav li a{
+	text-decoration: none;    
+    display:block;
+    margin: 6px 6px;
+    background-color: #ECE;
+    padding: 4px;
+    border-width:4px;
+    border-style:solid;
+    /*Top - Right - Botom - Left*/
+    border-color: #FDF #FDF #DBD #DBD;   
+}
+nav.back ul li{
+    display: inline-block;
+}
+nav.back a{
+    text-decoration: none;
+    font-size: 18px;
+    padding: 3px 10px;
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+}
+ul.TopNav li a:hover /* pele iebrauc */{
+ color:Red; 
+}
+ul.TopNav li a:active /* Click */{
+  border-color: #DBD #DBD #FDF #FDF;   
+}
+tr,td.Norm{
+	width:100px;
+	
+}
+img.Norm{
+	width:100%;
+}
